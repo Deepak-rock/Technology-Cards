@@ -1,4 +1,4 @@
-import './index.js'
+import './index.css'
 
 const CardsListDetails = props => {
   const {cardsListItem} = props
@@ -6,11 +6,11 @@ const CardsListDetails = props => {
   const cardStyleClassName = `card-style ${className}`
   return (
     <div className={cardStyleClassName}>
-      <div>
-        <h2 className="title">{title}</h2>
-        <p className="card-description">{description}</p>
+      <h2 className="title">{title}</h2>
+      <p className="card-description">{description}</p>
+      <div className="image-container">
+        <img className="image" src={imgUrl} alt="title" />
       </div>
-      <img className="image" src={imgUrl} />
     </div>
   )
 }
