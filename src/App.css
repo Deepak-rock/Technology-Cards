@@ -11,12 +11,12 @@ body {
 }
 
 /* Write CSS code here */
-*{
+* {
   margin: 0;
 }
 
-.bg-container{
-  margin:0;
+.bg-container {
+  margin: 0;
   background-color: #f4faff;
   width: 100%;
   background-size: cover;
@@ -26,22 +26,22 @@ body {
   justify-content: center;
   align-items: center;
 }
-.heading{
-  font-size:40px;
+.heading {
+  font-size: 40px;
   margin: 20px 0;
-  color:  #171f46;
+  color: #171f46;
   font-family: 'Roboto';
 }
-.description{
-  font-size:20px;
+.description {
+  font-size: 20px;
   text-align: center;
   margin: 0 0 20px 0;
   color: #64748b;
   font-family: 'Roboto';
-  min-width:400px;
+  min-width: 400px;
   max-width: 800px;
 }
-.content-card-container{
+.content-card-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;

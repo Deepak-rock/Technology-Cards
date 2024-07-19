@@ -37,17 +37,19 @@ const cardsList = [
   },
 ]
 
-const content = `Get trained by alumin of IITs and top companies like Amazon, Microsoft, Intel, Nvidia, Qualcomm, etc. Learn directly from professionals involved in Product Development`
-
 const App = () => (
   <div className="bg-container">
     <h1 className="heading">Learn 4.0 Technologies</h1>
-    <p className="description">{content}</p>
-    <div className="content-card-container">
+    <p className="description">
+      Get trained by alumni of IITs and top companies like Amazon, Microsoft,
+      Intel, Nvidia, Qualcomm, etc. Learn directly from professionals involved
+      in Product Development.
+    </p>
+    <ul className="content-card-container">
       {cardsList.map(eachItem => (
         <CardsListDetails cardsListItem={eachItem} key={eachItem.id} />
       ))}
-    </div>
+    </ul>
   </div>
 )
 

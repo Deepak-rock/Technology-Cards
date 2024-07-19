@@ -15,29 +15,29 @@
 }
 
 /* Write CSS code here. */
-.card-style{
+.card-style {
   background-color: #ffffff;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width:450px;
-  height:350px;
-  padding:20px;
-  margin:20px;
+  width: 450px;
+  height: 350px;
+  padding: 20px;
+  margin: 20px;
 }
-.title{
-  font-size:28px;
-  margin:0 0 20px 0;
-  color:  #171f46;
+.title {
+  font-size: 28px;
+  margin: 0 0 20px 0;
+  color: #171f46;
   font-family: 'Roboto';
 }
-.card-description{
-  font-size:18px;
-  color:  #64748b;
+.card-description {
+  font-size: 18px;
+  color: #64748b;
   font-family: 'Roboto';
 }
-.image-container{
+.image-container {
   align-self: flex-end;
-  margin:30px 0 0 0;
+  margin: 30px 0 0 0;
 }
